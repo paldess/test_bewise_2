@@ -1,0 +1,8 @@
+1. в каталоге main_py создать образ докер-контейнера с именем test командой
+	docker build -t test .
+
+2. в каталоге test_bewise_2 запустить контейнеры командой 
+	docker compose up -d
+
+volume:
+	dbdata - в каталоге test_bewise_2, 
